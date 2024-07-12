@@ -1,0 +1,28 @@
+{
+  "name": "Node.js, PNPM, Typescript Dev-Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+		"editor.minimap.enabled": false,
+        "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono, monospace",
+        "workbench.colorTheme": "Evondev Dracula Author",
+		"workbench.remoteIndicator.showExtensionRecommendations": false,
+		"extensions.ignoreRecommendations": true,
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [
+        "evondev.dracula-high-contrast",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "humao.rest-client",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "kreativ-software.csharpextensions"
+      ]
+    }
+  }
+}
