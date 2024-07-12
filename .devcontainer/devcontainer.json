@@ -1,5 +1,5 @@
 {
-  "name": "Node.js, PNPM, Typescript Dev-Container",
+  "name": "Alpine Dot.Net Dev-Container",
   "build": {
     "dockerfile": "Dockerfile"
   },
